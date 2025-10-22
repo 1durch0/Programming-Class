@@ -1,5 +1,3 @@
-from unittest import case
-
 print("This is a calculator!")
 print("You can add, subtract, multiply, divide numbers and find the modulus!")
 print("Use add for addition\nsub for substraction\nmultiply for multiplication\ndivide for division\nmod for modulus")
@@ -28,3 +26,5 @@ match z:
         print(div(input(), input()))
     case 'mod':
         print(mod(input(), input()))
+    case _:
+        print("Error: wrong input")
