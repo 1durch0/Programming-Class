@@ -11,20 +11,23 @@ def div(x, y):
     return int(x) / int(y)
 def mod(x, y):
     return int(x) % int(y)
+
+
 print("Write your operator here:")
 z = input()
-match z:
-    case 'add':
-        print(add(input(), input()))
-    case 'sub':
-        print(sub(input(), input()))
-    case 'multiply':
-        print(mul(input(), input()))
-    case 'multiply':
-        print(mul(input(), input()))
-    case 'divide':
-        print(div(input(), input()))
-    case 'mod':
-        print(mod(input(), input()))
-    case _:
-        print("Error: wrong input")
+def calc(z):
+    match z:
+        case 'add':
+            print(add(input(), input()))
+        case 'sub':
+            print(sub(input(), input()))
+        case 'multiply':
+            print(mul(input(), input()))
+        case 'multiply':
+            print(mul(input(), input()))
+        case 'divide':
+            print(div(input(), input()))
+        case 'mod':
+            print(mod(input(), input()))
+        case _:
+            print("Error: wrong input")
