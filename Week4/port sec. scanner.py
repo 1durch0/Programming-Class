@@ -12,7 +12,6 @@ devices = [
 ]
 
 risky_ports = [21, 993, 3389, 143]
-
 def port_scan(device_list, ports_risks):
     print("Scanning ports...\n")
     i = 0
