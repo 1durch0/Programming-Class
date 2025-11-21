@@ -22,26 +22,40 @@ def check_special_char(password):
 def validate_password(password):
     is_valid = True
     password_validation = {}
+    missing_criteria = []
     if not check_min_length(password):
         is_valid = False
+        missing_criteria.append("minimum length of 8 characters")
     if not check_max_length(password):
         is_valid = False
+        missing_criteria.append("maximum length of 16 characters")
     if not check_uppercase(password):
         is_valid = False
+        missing_criteria.append("uppercase letter")
     if not check_lowercase(password):
         is_valid = False
+        missing_criteria.append("lowercase letter")
     if not check_digit(password):
         is_valid = False
+        missing_criteria.append("digit")
     if not check_special_char(password):
         is_valid = False
+        missing_criteria.append("special character")
     
     if is_valid == True:
         password_validation[password] = True
+        print("sufficient password")
     else:
         password_validation[password] = False
+        print("insufficient password")
+    return is_valid, missing_criteria
 
-    print(f"{password}: {password_validation[password]}")
-
+"""
 for key in passwords.keys():
     validate_password(key)
+"""
 
+password_to_test = input("Write password to test:")
+_, missing = validate_password(password_to_test)
+if missing:
+    print("Criteria not met: " + ", ".join(missing))
