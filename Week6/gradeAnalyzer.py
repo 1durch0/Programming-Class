@@ -10,20 +10,37 @@ while True:
     
     name = input("Enter student name:\n")
     if name.lower() == "exit":
-        calculation()
+        end_print()
         break
     
     score = input("Enter student score (0-100):\n")
     if score.lower() == "exit":
-        calculation()
+        end_print()
         break
     
     
-    def calculation():
+    def end_print():
+        #calculating final statistics
         for name, score in student_records:
             stats["avrg"] += score
         stats["avrg"] = stats["avrg"] / len(student_records)
-        print(stats["max"], stats["min"], stats["avrg"])
+        
+        #printing final statistics
+        print("\n--- Grade Statistics ---")
+        print(f"Highest Score: {stats['max']}")
+        print(f"Lowest Score: {stats['min']}")
+        print(f"Average Score: {stats['avrg']:.2f}")    
+        
+        print ("\n--- Student Records ---")
+        for name, score in student_records:
+            print(f"{name}: {score}")
+
+        print("\n--- Score Distribution ---")
+        for score in sorted(score_counts):
+            print(f"Score {score}: {'*' * score_counts[score]}")
+        
+        
+
 
     student_records.append((name, int(score)))
     if int(score) not in unique_scores:
