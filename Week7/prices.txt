@@ -1,0 +1,6 @@
+Laptop Computer ,999.99,Electronics,Premium
+Winter Jacket,129.99,Clothing,Standard
+Python Programming Book,49.99,Books,Standard
+Coffee Maker ,79.99,Home,Budget
+Wireless Headphones,199.99,Electronics,Premium
+Car Windows, 317.98, car parts, Standard
