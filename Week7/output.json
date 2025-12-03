@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Laptop Computer",
+        "original_price": 999.99,
+        "final_price": 854.99,
+        "category": "Electronics",
+        "quality": "Premium"
+    },
+    {
+        "name": "Winter Jacket",
+        "original_price": 129.99,
+        "final_price": 110.49,
+        "category": "Clothing",
+        "quality": "Standard"
+    },
+    {
+        "name": "Python Programming Book",
+        "original_price": 49.99,
+        "final_price": 49.99,
+        "category": "Books",
+        "quality": "Standard"
+    },
+    {
+        "name": "Coffee Maker",
+        "original_price": 79.99,
+        "final_price": 79.99,
+        "category": "Home",
+        "quality": "Budget"
+    },
+    {
+        "name": "Wireless Headphones",
+        "original_price": 199.99,
+        "final_price": 170.99,
+        "category": "Electronics",
+        "quality": "Premium"
+    },
+    {
+        "name": "Car Windows",
+        "original_price": 317.98,
+        "final_price": 317.98,
+        "category": "car parts",
+        "quality": "Standard"
+    }
+]

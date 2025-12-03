@@ -39,7 +39,7 @@ def calculateFinalPrices():
         })
 
     # write to json file
-    with open("output.json", "w") as json_file:
+    with open("/Users/1durch0/Studium/HTW Cyber Security & Business/1. Semester/Programming/Programming-Class/Week7/output.json", "w") as json_file:
         json.dump(output, json_file, indent=4)
 
     print("JSON file 'output.json' successfully created!")
