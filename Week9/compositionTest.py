@@ -23,14 +23,23 @@ class Library():
             if book.title == title:
                 return book.get_info()
         return "Book not found."
+    
+    def remove_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                self.books.remove(book)
+                return f"Removed '{title}' from the library."
+        return "Book not found."
 
 # Example usage
 if __name__ == "__main__":
     library = Library() 
     book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565", 180)
     book2 = Book("To Kill a Mockingbird", "Harper Lee", "978-0446310789", 281)
+    book3 = Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", "978-0590353427", 309)
     library.add_book(book1)
     library.add_book(book2)
+    library.add_book(book3)
     print(library.list_books())
     print(library.find_book_by_title("The Great Gatsby"))
-    print(library.find_book_by_title("The Catcher in the Rye"))
+    print(library.find_book_by_title("Harry Potter and the Sorcerer's Stone"))
