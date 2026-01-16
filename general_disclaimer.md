@@ -1,0 +1,1 @@
+AI was used for several purposes in this project. Examples are: comments, cleaner sructure, optimization
