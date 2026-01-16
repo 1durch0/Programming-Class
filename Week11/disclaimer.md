@@ -1,1 +1,0 @@
-I used Gemini to explain me the API returns and how to get the desired output format
