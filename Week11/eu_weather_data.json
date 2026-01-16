@@ -1,0 +1,596 @@
+{
+    "Vienna": {
+        "country": "Austria",
+        "coordinates": {
+            "latitude": 48.2082,
+            "longitude": 16.3738
+        },
+        "current_weather": {
+            "temperature": 0.2,
+            "windspeed": 7.9,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -0.5,
+                "precipitation_probability": 0,
+                "weathercode": 45
+            }
+        ]
+    },
+    "Brussels": {
+        "country": "Belgium",
+        "coordinates": {
+            "latitude": 50.8503,
+            "longitude": 4.3517
+        },
+        "current_weather": {
+            "temperature": 11.1,
+            "windspeed": 11.2,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 10.9,
+                "precipitation_probability": 72,
+                "weathercode": 51
+            }
+        ]
+    },
+    "Sofia": {
+        "country": "Bulgaria",
+        "coordinates": {
+            "latitude": 42.6977,
+            "longitude": 23.3219
+        },
+        "current_weather": {
+            "temperature": 3.8,
+            "windspeed": 5.5,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 1.6,
+                "precipitation_probability": 0,
+                "weathercode": 45
+            }
+        ]
+    },
+    "Zagreb": {
+        "country": "Croatia",
+        "coordinates": {
+            "latitude": 45.815,
+            "longitude": 15.9819
+        },
+        "current_weather": {
+            "temperature": 5.5,
+            "windspeed": 4.7,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 7.2,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Nicosia": {
+        "country": "Cyprus",
+        "coordinates": {
+            "latitude": 35.1856,
+            "longitude": 33.3823
+        },
+        "current_weather": {
+            "temperature": 14.3,
+            "windspeed": 5.5,
+            "weathercode": 2,
+            "condition": "Partly cloudy",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 7.4,
+                "precipitation_probability": 0,
+                "weathercode": 1
+            }
+        ]
+    },
+    "Prague": {
+        "country": "Czechia",
+        "coordinates": {
+            "latitude": 50.0755,
+            "longitude": 14.4378
+        },
+        "current_weather": {
+            "temperature": 2.9,
+            "windspeed": 5.6,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 1.4,
+                "precipitation_probability": 0,
+                "weathercode": 45
+            }
+        ]
+    },
+    "Copenhagen": {
+        "country": "Denmark",
+        "coordinates": {
+            "latitude": 55.6761,
+            "longitude": 12.5683
+        },
+        "current_weather": {
+            "temperature": 5.7,
+            "windspeed": 15.1,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 3.8,
+                "precipitation_probability": 13,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Tallinn": {
+        "country": "Estonia",
+        "coordinates": {
+            "latitude": 59.437,
+            "longitude": 24.7536
+        },
+        "current_weather": {
+            "temperature": -5.5,
+            "windspeed": 19.1,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -6.4,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Helsinki": {
+        "country": "Finland",
+        "coordinates": {
+            "latitude": 60.1695,
+            "longitude": 24.9354
+        },
+        "current_weather": {
+            "temperature": -1.8,
+            "windspeed": 24.5,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -2.1,
+                "precipitation_probability": 14,
+                "weathercode": 73
+            }
+        ]
+    },
+    "Paris": {
+        "country": "France",
+        "coordinates": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        },
+        "current_weather": {
+            "temperature": 11.8,
+            "windspeed": 10.5,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 11.4,
+                "precipitation_probability": 25,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Berlin": {
+        "country": "Germany",
+        "coordinates": {
+            "latitude": 52.52,
+            "longitude": 13.405
+        },
+        "current_weather": {
+            "temperature": 7.1,
+            "windspeed": 9.8,
+            "weathercode": 1,
+            "condition": "Mainly clear",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 3.8,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Athens": {
+        "country": "Greece",
+        "coordinates": {
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "current_weather": {
+            "temperature": 14.0,
+            "windspeed": 2.3,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 6.1,
+                "precipitation_probability": 0,
+                "weathercode": 1
+            }
+        ]
+    },
+    "Budapest": {
+        "country": "Hungary",
+        "coordinates": {
+            "latitude": 47.4979,
+            "longitude": 19.0402
+        },
+        "current_weather": {
+            "temperature": 2.4,
+            "windspeed": 8.3,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -0.3,
+                "precipitation_probability": 44,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Dublin": {
+        "country": "Ireland",
+        "coordinates": {
+            "latitude": 53.3498,
+            "longitude": -6.2603
+        },
+        "current_weather": {
+            "temperature": 8.3,
+            "windspeed": 15.1,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T15:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 6.4,
+                "precipitation_probability": 82,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Rome": {
+        "country": "Italy",
+        "coordinates": {
+            "latitude": 41.9028,
+            "longitude": 12.4964
+        },
+        "current_weather": {
+            "temperature": 13.9,
+            "windspeed": 2.7,
+            "weathercode": 2,
+            "condition": "Partly cloudy",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 8.4,
+                "precipitation_probability": 0,
+                "weathercode": 2
+            }
+        ]
+    },
+    "Riga": {
+        "country": "Latvia",
+        "coordinates": {
+            "latitude": 56.9496,
+            "longitude": 24.1052
+        },
+        "current_weather": {
+            "temperature": -8.8,
+            "windspeed": 20.2,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -7.2,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Vilnius": {
+        "country": "Lithuania",
+        "coordinates": {
+            "latitude": 54.6872,
+            "longitude": 25.2797
+        },
+        "current_weather": {
+            "temperature": -8.8,
+            "windspeed": 9.7,
+            "weathercode": 0,
+            "condition": "Clear sky",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -10.3,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Luxembourg": {
+        "country": "Luxembourg",
+        "coordinates": {
+            "latitude": 49.6116,
+            "longitude": 6.1319
+        },
+        "current_weather": {
+            "temperature": 8.3,
+            "windspeed": 10.4,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 7.2,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Valletta": {
+        "country": "Malta",
+        "coordinates": {
+            "latitude": 35.8989,
+            "longitude": 14.5146
+        },
+        "current_weather": {
+            "temperature": 15.5,
+            "windspeed": 12.8,
+            "weathercode": 61,
+            "condition": "Rain: Slight",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 14.7,
+                "precipitation_probability": 3,
+                "weathercode": 2
+            }
+        ]
+    },
+    "Amsterdam": {
+        "country": "Netherlands",
+        "coordinates": {
+            "latitude": 52.3676,
+            "longitude": 4.9041
+        },
+        "current_weather": {
+            "temperature": 10.7,
+            "windspeed": 13.3,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 9.7,
+                "precipitation_probability": 60,
+                "weathercode": 53
+            }
+        ]
+    },
+    "Warsaw": {
+        "country": "Poland",
+        "coordinates": {
+            "latitude": 52.2297,
+            "longitude": 21.0122
+        },
+        "current_weather": {
+            "temperature": -2.3,
+            "windspeed": 15.5,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -1.6,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Lisbon": {
+        "country": "Portugal",
+        "coordinates": {
+            "latitude": 38.7223,
+            "longitude": -9.1393
+        },
+        "current_weather": {
+            "temperature": 11.7,
+            "windspeed": 18.3,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T15:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 11.2,
+                "precipitation_probability": 0,
+                "weathercode": 1
+            }
+        ]
+    },
+    "Bucharest": {
+        "country": "Romania",
+        "coordinates": {
+            "latitude": 44.4268,
+            "longitude": 26.1025
+        },
+        "current_weather": {
+            "temperature": -3.1,
+            "windspeed": 9.8,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T17:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -0.5,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Bratislava": {
+        "country": "Slovakia",
+        "coordinates": {
+            "latitude": 48.1486,
+            "longitude": 17.1077
+        },
+        "current_weather": {
+            "temperature": 0.5,
+            "windspeed": 8.4,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": -0.4,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Ljubljana": {
+        "country": "Slovenia",
+        "coordinates": {
+            "latitude": 46.0569,
+            "longitude": 14.5058
+        },
+        "current_weather": {
+            "temperature": 10.3,
+            "windspeed": 0.4,
+            "weathercode": 2,
+            "condition": "Partly cloudy",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 4.1,
+                "precipitation_probability": 0,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Madrid": {
+        "country": "Spain",
+        "coordinates": {
+            "latitude": 40.4168,
+            "longitude": -3.7038
+        },
+        "current_weather": {
+            "temperature": 9.5,
+            "windspeed": 12.9,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 6.1,
+                "precipitation_probability": 38,
+                "weathercode": 3
+            }
+        ]
+    },
+    "Stockholm": {
+        "country": "Sweden",
+        "coordinates": {
+            "latitude": 59.3293,
+            "longitude": 18.0686
+        },
+        "current_weather": {
+            "temperature": 3.2,
+            "windspeed": 24.1,
+            "weathercode": 3,
+            "condition": "Overcast",
+            "time": "2026-01-16T16:00"
+        },
+        "hourly_forecast": [
+            {
+                "time": "2026-01-16T00:00",
+                "temperature": 2.6,
+                "precipitation_probability": 8,
+                "weathercode": 3
+            }
+        ]
+    }
+}
